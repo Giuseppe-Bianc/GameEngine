@@ -21,6 +21,5 @@ int main() {
 	std::cout << "Hello Word!" << std::endl;
 
 	destroyAndTerm(datatd);
-	system("pause");
 	return 0;
 }
