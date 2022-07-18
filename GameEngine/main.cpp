@@ -17,6 +17,10 @@ int main() {
 	}
 	glfwMakeContextCurrent(datatd.window);
 
+	while (!glfwWindowShouldClose(datatd.window)){
+		glfwSwapBuffers(datatd.window);
+		glfwPollEvents();
+	}
 
 	std::cout << "Hello Word!" << std::endl;
 
